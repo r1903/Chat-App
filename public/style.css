@@ -1,0 +1,64 @@
+ * {  
+      box-sizing: border-box; 
+ }
+
+.chatWindow {
+      display:flex;
+      flex-direction: column;
+      width:50%;
+      height:100%;
+      border:1px solid black;
+      margin:0 auto;
+}
+
+.chatmsg{
+      min-height:500px;
+      background-color: rgb(252, 250, 245);
+}
+
+.output{
+      padding:10px;
+}
+
+.typing p{
+      padding-left:10px;
+}
+
+.welcome p{
+
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+      margin:0;
+}
+
+.inputValue{ 
+      display:flex;
+      flex-direction: column;
+      width:100%;
+}
+
+li { 
+      list-style-type:none;
+      padding:5px 0;
+   }
+
+li span {
+      padding-left:20px;
+      font-size: 10px;
+}
+
+li:nth-child(odd) { 
+      background: rgb(216, 216, 219);
+}
+      
+input { 
+      padding: 10px; 
+}
+
+button { 
+      background: rgb(114, 109, 189); 
+      padding: 10px; 
+      border:none;
+}
+      
